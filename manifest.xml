@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<manifest xmlns="http://chameleonlauncher.com/widgets">
+	
+	<!-- About the widget -->
+	<widget>
+		<guid>g1.chameleon.us.marciobm</guid> <!-- A unique id -->
+		<baseURL>http://marciobm.us/chameleon/widget/g1/</baseURL> <!-- your base url -->
+		<name>Últimas do G1</name> <!-- title that users will see as the name of the widget -->
+		<description>Leitor RSS das últimas notícias do site G1</description> <!-- a detailed description of the widget -->
+		<version>0.0.3</version> <!-- the version number of your widget -->
+	</widget>	
+	
+	
+	
+	<!-- Style info -->
+	<style>
+		<icons>
+			<large>http://s.glbimg.com/jo/g1/static/portal/img/logos/favicon.png</large> <!-- displayed on the title bar and in the widget list -->
+		</icons>
+		<color>#F00</color> <!-- The color applied to the widget's chrome -->
+		<showTitleBar>true</showTitleBar> <!-- hide the title bar if false -->
+		<showBackgroundShadow>true</showBackgroundShadow> <!-- hide theshadow behind the widget if false -->
+		<allowRefresh>true</allowRefresh> <!-- display a refresh button on the title bar -->
+		<allowConfigure>true</allowConfigure> <!-- display a refresh button on the title bar -->
+	</style>
+	
+	
+	
+	<!-- About who created the widget, and how to contact them -->
+	<author>
+		<name>Marcio Matielo</name>
+		<website>http://www.marciobm.com</website>
+		<email>suporte@marciobm.com</email>
+		<support type="email">suporte@marciobm.com</support>
+		<support type="URL">http://www.marciobm.com</support>
+	</author>
+	
+
+	
+	<!-- 
+		- A list of all files required to run this widget offline
+			- Only files that a required for a first run offline are required.
+				- If a widget requires a network connection, only include the assets required to tell the user they need a connection.
+			- Assets not included will be cached on demand.
+	 -->
+	<resources>
+		<resource name='offline.html' />
+	</resources>
+
+</manifest>
